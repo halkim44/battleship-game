@@ -6,13 +6,19 @@ const playerOneGameBoard = GameBoard([
 	['2I'],
 	['4C'],
 	['2B', '2C'],
-,
+	['4E', '5E'],
+	['3G', '4G', '5G'],
+	['8E', '8F', '8G', '8H'],
+	['10B', '10C', '10D', '10E', '10F'],
 ]);
 const playerTwoGameBoard = GameBoard([
 	['2I'],
 	['4C'],
 	['2B', '2C'],
-,
+	['4E', '5E'],
+	['3G', '4G', '5G'],
+	['8E', '8F', '8G', '8H'],
+	['10B', '10C', '10D', '10E', '10F'],
 ]);
 
 const players = Players();
