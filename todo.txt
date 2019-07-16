@@ -1,0 +1,39 @@
+## set new game
+	- the game start with waiting for player 1 to start
+	- while in this phase, player 1 can only interact with player 2's board
+	- the role will switch between both players when player 1 make a move
+	- repeat
+
+	controller
+		- need to activate events in enemy's board and turn off events
+			on the current player's board
+		- switch the role of both players
+
+	model
+		- tell controller who's turn in it
+		- change turn
+
+	view
+		- display mark
+## populate board with ships
+	both player will know if they hit a ship or missed
+
+	model
+		[x] keep ship coordinates for both players
+		[] update gameboard data when player make a move
+		[] update ship data when hit
+
+
+	controller
+		[x] decide the appearance of the grid when a ship is hit or miss
+		[] call method to update model data
+
+
+model
+	store
+
+## render board using data from gameboard class
+
+## take user input for attacking
+
+## decide winner

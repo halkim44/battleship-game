@@ -1,0 +1,47 @@
+.game {
+	display: flex;
+	width: 70%;
+	margin: 0 auto;
+	justify-content: space-around;
+}
+
+table {
+	border-collapse: collapse;
+}
+.box {
+	border: 1px solid #7EF9BC;
+	width: 32px;
+	height: 32px;
+	z-index: 1;
+}
+.index {
+		width: 32px;
+	height: 32px;
+	text-align: center;
+	border: 1px transparent;	
+}
+.miss {
+	position: relative;
+	background-color: #CCFEE8;
+	z-index: 5;
+	
+}
+.hit {
+	position: relative;
+	background-color: #FFB3C1;
+	z-index: 10;
+
+}
+.miss::before {
+	content: '';
+	position: absolute;
+	top: 2px; right: 2px; bottom: 2px; left: 1px;
+	box-shadow: 0 0 0px 4px #7AD9F5;
+}
+
+.hit::before {
+	content: '';
+	position: absolute;
+	top: 2px; right: 2px; bottom: 2px; left: 1px;
+	box-shadow: 0 0 0px 4px #FF0023;
+}

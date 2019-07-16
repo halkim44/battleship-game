@@ -1,20 +1,13 @@
 # Battleship Game
 
-a very simple Battleship game written in javascript
+a 2 player classic Battleship game
 
-## Getting Started
+## Features
+* 2 player game
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
-## Testings
-
-tests are made using Jest.
-
-run all tests:
-
-```
-$ npm run test
-```
+## How to Play
+* click on opponent's board to attack
+* the first player to sunk all his/her opponent's ship will be the winner
 
 ## Built With
 
@@ -24,4 +17,3 @@ $ npm run test
 
 ## Acknowledgments
 * this is one of the project assignment from [The Odin Project's Javascript course](https://www.theodinproject.com/courses/javascript)
-
